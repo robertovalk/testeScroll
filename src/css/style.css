@@ -1,0 +1,57 @@
+body {
+    overflow-x: hidden;
+}
+
+main {
+    background-color: #4D455D;
+}
+
+.pokedex {
+    padding: 2em 1em 2em 1em;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em 3em 2em 3em;
+    background-color: #E96479;
+}
+
+header {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    color: #4D455D;
+}
+
+.nav-link {
+    margin-left: 1em;
+    color: #4D455D;
+}
+
+.pkdx{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,233,222,1) 100%);
+    padding: 2em 3em 2em 3em;
+    border: 1em solid #7DB9B6;
+    margin: 2em 1em 0em 1em;
+    border-radius: 3em;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2em;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main p {
+    text-align: justify;
+    line-height: 1.8em;
+}
